@@ -295,6 +295,7 @@ def main():
                 ball.hit()
                 block.hit()
 
+
                 if block.getHealth() > 0:
                     remaining_blocks.append(block)
                 else:
